@@ -42,7 +42,7 @@ public class ArrayStack<E> implements Stack<E> {
     }
 
     @Override
-    public E peak() {
+    public E peek() {
         return array.getLast();
     }
 
