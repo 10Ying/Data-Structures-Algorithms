@@ -34,7 +34,7 @@ public class LinkedListStack<E> implements Stack<E> {
     }
 
     @Override
-    public E peak() {
+    public E peek() {
         return list.getFirst();
     }
 
